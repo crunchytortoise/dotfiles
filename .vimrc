@@ -26,7 +26,7 @@ Plugin 'https://github.com/vim-scripts/Tagbar'
 " Avoid a name conflict with L9
 "Plugin 'user/L9', {'name': 'newL9'}
 Plugin 'https://github.com/gregsexton/MatchTag'
-"Plugin 'https://github.com/Valloric/YouCompleteMe'
+Plugin 'https://github.com/Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -65,3 +65,4 @@ set t_Co=256
 nnoremap ; :
 nnoremap : ;
 set backspace=indent,eol,start
+colorscheme gruvbox 
