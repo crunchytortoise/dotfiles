@@ -27,7 +27,7 @@ Plugin 'https://github.com/vim-scripts/Tagbar'
 "Plugin 'user/L9', {'name': 'newL9'}
 Plugin 'https://github.com/gregsexton/MatchTag'
 Plugin 'https://github.com/Valloric/YouCompleteMe'
-
+Plugin 'https://github.com/kien/ctrlp.vim.git'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -54,6 +54,12 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set	expandtab
+set cursorline
+set wildmenu
+set lazyredraw
+set showmatch
+set incsearch
+set hlsearch
 "set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType python set tabstop=2
 autocmd FileType python set softtabstop=2

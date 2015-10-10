@@ -10,3 +10,7 @@ alias postgres_start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgr
 #Sonobi Related
 alias comp_mrph='sh /Users/crunchyturtle/Dropbox/scripts/cppp.sh'
 
+#Switch ID
+alias IDSonobi="git config --global user.name \"Robert Daigle\"; git config --global user.email \"rdaigle@sonobi.com\""
+alias IDSavvySuit="git config --global user.name \"Robert Daigle\"; git config --global user.email \"robby.daigle@savvysuit.com\""
+alias IDPersonal="git config --global user.name \"crunchyturtle\"; git config --global user.email \"robbydaigle@gmail.com\""
