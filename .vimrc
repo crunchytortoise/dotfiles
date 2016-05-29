@@ -53,6 +53,11 @@ set incsearch
 set hlsearch
 set ruler
 set laststatus=2
+syntax on
+set number
+set relativenumber
+noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
+noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 
 "Airline custom
 let g:airline_powerline_fonts = 1
@@ -63,8 +68,6 @@ autocmd FileType python set tabstop=4
 autocmd FileType python set softtabstop=4
 autocmd FileType python set shiftwidth=4
 autocmd FileType python set expandtab
-syntax on
-set nu
 set t_Co=256
 nnoremap ; :
 nnoremap : ;
